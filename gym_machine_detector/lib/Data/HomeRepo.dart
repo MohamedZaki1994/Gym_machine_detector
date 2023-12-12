@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:gym_machine_detector/DataProvider.dart';
+import 'package:gym_machine_detector/Data/DataProvider.dart';
 
 class HomeRepo {
   DataProvider _provider = DataProvider();

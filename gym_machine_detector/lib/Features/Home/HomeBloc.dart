@@ -3,9 +3,9 @@ import 'dart:ffi';
 import 'dart:io';
 
 import 'package:bloc/bloc.dart';
-import 'package:gym_machine_detector/HomeRepo.dart';
+import 'package:gym_machine_detector/Data/HomeRepo.dart';
 
-import 'Machines_classes.dart';
+import '../../Models/Machines_classes.dart';
 
 class HomeBloc extends Bloc<HomeEvent, HomeState> {
   late final HomeRepo repo;
